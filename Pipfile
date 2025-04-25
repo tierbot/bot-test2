@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+sqlalchemy = "*"
+requests = "*"
+keras = "*"
+"discord.py" = "*"
+tensorflow = "==2.15.0"
+numpy = "*"
+pillow = "*"
+speechrecognition = "*"
+pyaudio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
